@@ -6,12 +6,11 @@ pipeline {
                 echo "Pipeline Usando Jenkinsfile"
             }
         }
-    } 
-    stages { 
         stage('Build image'){ 
             steps{
                 echo "Pipeline Usando Build image"
             }
         }
+
     } 
 }
