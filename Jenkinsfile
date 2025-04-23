@@ -3,7 +3,7 @@ pipeline {
     stages { 
         stage('Lint Dockerfile'){ 
             steps{
-                echo "Pipeline Usando Jenkinsfile"
+                echo "Pipeline Usando Jenkinsfiless"
             }
         }
         stage('Build image'){ 
